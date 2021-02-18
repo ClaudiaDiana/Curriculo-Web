@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Currículo-Claudia Diana</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/main.js"></script>
+  <!-- Bootstrap CSS -->
+  <!--CDN: Content Delivery Network-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/76ead412be.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="container">
+    <div class="circle">
+      <img src="./assets/img/foto1.jpeg">
+      </div>
+        <h1 class="fonte-titulo">Claudia Diana</h1>
+        <ul class="contato">
+          <li><span style="color: dodgerblue;"><i class="fab fa-linkedin fa-2x"></i></span>  <b>Linkedin</b>:linkedin.com/in/claudia-diana-</li>
+          <li><span style="color:black;"><i class="fab fa-github fa-2x"></i></span> <b>Github</b>:github.com/ClaudiaDiana</li>
+          <li><i class="fas fa-at fa-2x"></i> <b>E-mail</b>:claudiadiana150@gmail.com</li>
+        </ul>
+    </div>
+
+    <div class="conteudo" data-spy="scroll" data-target="#navbar" data-offset="0">
+      <nav id="navbarExemplo" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Informações</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudosNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudosNavbar">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" href="#bio">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencias">Experiências</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formação">Formação Acadêmica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="accordion" id="cardAccordion">
+        <div class="card">
+            <div class="card-header" id="headCard1">
+                <h3>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#bodyCard1" id="bio">
+                        <b class="titulo">Bio</b>
+                    </button>
+                </h3>
+            </div>
+            <div id="bodyCard1" class="collapse" data-parent="#cardAccordion">
+                <div class="card-body">
+                    <p class="card-text"> 
+                        Sou Claudia, tenho 20 anos, nasci em São Paulo capital,
+                        moro na cidade de São José do Rio Preto-SP há 2 anos,
+                        faço faculdade de Sistemas de Informação.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headCard2">
+                <h3>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#bodyCard2" id="experiencias" >
+                        <b class="titulo" >Experiências</b>
+                    </button>
+                </h3>
+            </div>
+            <div id="bodyCard2" class="collapse" data-parent="#cardAccordion">
+                <div class="card-body">
+                    <p class="card-text">
+                        <p><b>Quality Assurance</b></p>
+                        <b class="titulo">Visual Systems Group - HIT |</b>
+                        <i class="titulo"> Abril 2019 - 1 ano e 1 mês atualmente</i>                    
+                        <p>
+                          Desenvolvo relatórios mensais de índice de qualidade a partir de auditorias de ligações e tickets de
+                          atendimento do centro de suporte,
+                          realizo toda a parte de cálculos de indicadores tanto diários quanto mensais;
+                        </p>
+                    </p>   
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headCard3">
+                <h3>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#bodyCard3" id="formação">
+                        <b class="titulo">Formação Acadêmica</b>
+                    </button>
+                </h3>
+            </div>
+            <div id="bodyCard3" class="collapse" data-parent="#cardAccordion">
+                <div class="card-body">
+                    <p class="card-text">
+                        <p><b>Escola Estadual Hermelina Barbosa Leal</b></p>
+                        <p>
+                          Ensino médio completo | <i class="titulo">2015 - 2017</i>
+                        </p>
+                        <p><b>UNILAGO - União das Faculdades dos Grandes Lagos</b></p>
+                        <p>
+                          Graduação em sistemas de informação, cursando o 3º ano | <i class="titulo">2018 - 2021</i>
+                        </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headCard4">
+                <h3>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#bodyCard4" id="contato">
+                        <b class="titulo">Contato</b>
+                    </button>
+                </h3>
+            </div>
+            <div id="bodyCard4" class="collapse" data-parent="#cardAccordion">
+                <div class="card-body">
+                    <p class="card-text">
+                        <div class="lista">
+                            <ul>
+                                <li><b>Celular</b>: (13) 98144-1890</li>
+                                <li><b>E-mail</b>:claudiadiana150@gmail.com</li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <p class="alinhamento" class="titulo"><b>Alguns projetos:</b></p>
+    <div id="carrosel" class="carousel slide bg-light" data-ride="carousel" style="text-align: center;">
+      <ol class="carousel-indicators">
+          <li data-target="#carrosel" data-slide-to="0" class="active"></li>
+          <li data-target="#carrosel" data-slide-to="1"></li>
+          <li data-target="#carrosel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="5000">
+              <img src="./assets/img/Capturar32.PNG" width="800px" height="350px">
+          </div>
+          <div class="carousel-item" data-interval="5000">
+              <img src="./assets/img/Capturarcss.PNG" width="800px" height="350px">
+          </div>
+          <div class="carousel-item" data-interval="5000">
+              <img src="./assets/img/Capturarprojeto.PNG" width="800px" height="350px">
+          </div>
+      </div>
+      <a class=carousel-control-prev href="#carrosel" role="button" data-slide="prev">
+          <span style="color:fuchsia;">
+            <i class="fas fa-angle-double-left fa-3x"></i>
+          </span>
+      </a>
+      <a class=carousel-control-next href="#carrosel" role="button" data-slide="next">
+          <span style="color: fuchsia;">
+            <i class="fas fa-angle-double-right fa-3x"></i>
+          </span>
+      </a>
+  </div>
+  </div>
+  </section>
+</body>
+</html>
